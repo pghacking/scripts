@@ -1,600 +1,900 @@
-columns 5 rows 1M 1 18.972000
-columns 5 rows 1M 2 14.991000
-columns 5 rows 1M 3 14.251000
-columns 5 rows 1M 4 14.275000
-columns 5 rows 1M 5 14.330000
-columns 5 rows 1M 6 14.047000
-columns 5 rows 1M 7 14.304000
-columns 5 rows 1M 8 14.569000
-columns 5 rows 1M 9 15.522000
-columns 5 rows 1M 10 14.162000
-columns 5 rows 2M 1 29.116000
-columns 5 rows 2M 2 21.752000
-columns 5 rows 2M 3 23.048000
-columns 5 rows 2M 4 24.408000
-columns 5 rows 2M 5 21.997000
-columns 5 rows 2M 6 21.792000
-columns 5 rows 2M 7 21.553000
-columns 5 rows 2M 8 21.847000
-columns 5 rows 2M 9 21.432000
-columns 5 rows 2M 10 21.475000
-columns 5 rows 3M 1 41.079000
-columns 5 rows 3M 2 28.559000
-columns 5 rows 3M 3 28.305000
-columns 5 rows 3M 4 28.235000
-columns 5 rows 3M 5 28.603000
-columns 5 rows 3M 6 28.207000
-columns 5 rows 3M 7 28.696000
-columns 5 rows 3M 8 28.394000
-columns 5 rows 3M 9 28.085000
-columns 5 rows 3M 10 28.151000
-columns 5 rows 4M 1 50.807000
-columns 5 rows 4M 2 35.492000
-columns 5 rows 4M 3 35.570000
-columns 5 rows 4M 4 35.327000
-columns 5 rows 4M 5 35.658000
-columns 5 rows 4M 6 35.428000
-columns 5 rows 4M 7 35.463000
-columns 5 rows 4M 8 35.353000
-columns 5 rows 4M 9 35.589000
-columns 5 rows 4M 10 37.301000
-columns 5 rows 5M 1 63.258000
-columns 5 rows 5M 2 47.565000
-columns 5 rows 5M 3 48.047000
-columns 5 rows 5M 4 43.347000
-columns 5 rows 5M 5 42.957000
-columns 5 rows 5M 6 42.994000
-columns 5 rows 5M 7 42.835000
-columns 5 rows 5M 8 43.985000
-columns 5 rows 5M 9 43.077000
-columns 5 rows 5M 10 43.093000
-columns 5 rows 6M 1 113.211000
-columns 5 rows 6M 2 51.291000
-columns 5 rows 6M 3 50.307000
-columns 5 rows 6M 4 49.770000
-columns 5 rows 6M 5 50.002000
-columns 5 rows 6M 6 49.658000
-columns 5 rows 6M 7 49.530000
-columns 5 rows 6M 8 49.622000
-columns 5 rows 6M 9 49.610000
-columns 5 rows 6M 10 58.935000
-columns 5 rows 7M 1 83.965000
-columns 5 rows 7M 2 57.205000
-columns 5 rows 7M 3 57.297000
-columns 5 rows 7M 4 57.539000
-columns 5 rows 7M 5 56.949000
-columns 5 rows 7M 6 57.596000
-columns 5 rows 7M 7 58.261000
-columns 5 rows 7M 8 59.777000
-columns 5 rows 7M 9 58.651000
-columns 5 rows 7M 10 56.773000
-columns 5 rows 8M 1 94.939000
-columns 5 rows 8M 2 64.440000
-columns 5 rows 8M 3 64.186000
-columns 5 rows 8M 4 64.339000
-columns 5 rows 8M 5 64.036000
-columns 5 rows 8M 6 66.553000
-columns 5 rows 8M 7 64.243000
-columns 5 rows 8M 8 64.650000
-columns 5 rows 8M 9 64.033000
-columns 5 rows 8M 10 64.031000
-columns 5 rows 9M 1 108.838000
-columns 5 rows 9M 2 72.679000
-columns 5 rows 9M 3 72.931000
-columns 5 rows 9M 4 72.146000
-columns 5 rows 9M 5 72.625000
-columns 5 rows 9M 6 76.059000
-columns 5 rows 9M 7 72.419000
-columns 5 rows 9M 8 71.313000
-columns 5 rows 9M 9 71.384000
-columns 5 rows 9M 10 71.310000
-columns 5 rows 10M 1 122.873000
-columns 5 rows 10M 2 81.173000
-columns 5 rows 10M 3 79.483000
-columns 5 rows 10M 4 78.779000
-columns 5 rows 10M 5 79.444000
-columns 5 rows 10M 6 78.582000
-columns 5 rows 10M 7 78.427000
-columns 5 rows 10M 8 78.350000
-columns 5 rows 10M 9 78.579000
-columns 5 rows 10M 10 78.839000
-columns 10 rows 1M 1 19.105000
-columns 10 rows 1M 2 15.020000
-columns 10 rows 1M 3 14.921000
-columns 10 rows 1M 4 15.182000
-columns 10 rows 1M 5 14.989000
-columns 10 rows 1M 6 15.234000
-columns 10 rows 1M 7 14.973000
-columns 10 rows 1M 8 14.785000
-columns 10 rows 1M 9 14.978000
-columns 10 rows 1M 10 15.011000
-columns 10 rows 2M 1 30.877000
-columns 10 rows 2M 2 22.140000
-columns 10 rows 2M 3 22.531000
-columns 10 rows 2M 4 22.480000
-columns 10 rows 2M 5 22.627000
-columns 10 rows 2M 6 22.300000
-columns 10 rows 2M 7 22.485000
-columns 10 rows 2M 8 22.445000
-columns 10 rows 2M 9 22.528000
-columns 10 rows 2M 10 22.596000
-columns 10 rows 3M 1 43.600000
-columns 10 rows 3M 2 29.496000
-columns 10 rows 3M 3 29.636000
-columns 10 rows 3M 4 29.698000
-columns 10 rows 3M 5 29.569000
-columns 10 rows 3M 6 29.742000
-columns 10 rows 3M 7 29.691000
-columns 10 rows 3M 8 29.460000
-columns 10 rows 3M 9 29.769000
-columns 10 rows 3M 10 29.700000
-columns 10 rows 4M 1 54.554000
-columns 10 rows 4M 2 37.598000
-columns 10 rows 4M 3 37.943000
-columns 10 rows 4M 4 37.461000
-columns 10 rows 4M 5 37.780000
-columns 10 rows 4M 6 37.995000
-columns 10 rows 4M 7 39.542000
-columns 10 rows 4M 8 37.569000
-columns 10 rows 4M 9 37.858000
-columns 10 rows 4M 10 37.663000
-columns 10 rows 5M 1 65.750000
-columns 10 rows 5M 2 45.006000
-columns 10 rows 5M 3 44.806000
-columns 10 rows 5M 4 44.772000
-columns 10 rows 5M 5 44.548000
-columns 10 rows 5M 6 44.632000
-columns 10 rows 5M 7 44.530000
-columns 10 rows 5M 8 44.615000
-columns 10 rows 5M 9 44.684000
-columns 10 rows 5M 10 44.645000
-columns 10 rows 6M 1 79.295000
-columns 10 rows 6M 2 52.867000
-columns 10 rows 6M 3 53.880000
-columns 10 rows 6M 4 52.297000
-columns 10 rows 6M 5 52.033000
-columns 10 rows 6M 6 52.531000
-columns 10 rows 6M 7 52.364000
-columns 10 rows 6M 8 52.342000
-columns 10 rows 6M 9 52.157000
-columns 10 rows 6M 10 52.033000
-columns 10 rows 7M 1 97.857000
-columns 10 rows 7M 2 65.294000
-columns 10 rows 7M 3 60.357000
-columns 10 rows 7M 4 60.662000
-columns 10 rows 7M 5 60.498000
-columns 10 rows 7M 6 60.118000
-columns 10 rows 7M 7 60.059000
-columns 10 rows 7M 8 60.029000
-columns 10 rows 7M 9 59.736000
-columns 10 rows 7M 10 59.848000
-columns 10 rows 8M 1 109.359000
-columns 10 rows 8M 2 68.831000
-columns 10 rows 8M 3 68.621000
-columns 10 rows 8M 4 67.806000
-columns 10 rows 8M 5 67.676000
-columns 10 rows 8M 6 67.514000
-columns 10 rows 8M 7 67.930000
-columns 10 rows 8M 8 67.500000
-columns 10 rows 8M 9 67.452000
-columns 10 rows 8M 10 67.986000
-columns 10 rows 9M 1 118.287000
-columns 10 rows 9M 2 77.012000
-columns 10 rows 9M 3 75.145000
-columns 10 rows 9M 4 74.675000
-columns 10 rows 9M 5 74.871000
-columns 10 rows 9M 6 74.579000
-columns 10 rows 9M 7 74.501000
-columns 10 rows 9M 8 74.692000
-columns 10 rows 9M 9 74.492000
-columns 10 rows 9M 10 75.069000
-columns 10 rows 10M 1 174.587000
-columns 10 rows 10M 2 84.341000
-columns 10 rows 10M 3 98.521000
-columns 10 rows 10M 4 83.620000
-columns 10 rows 10M 5 84.181000
-columns 10 rows 10M 6 86.856000
-columns 10 rows 10M 7 82.769000
-columns 10 rows 10M 8 82.518000
-columns 10 rows 10M 9 82.460000
-columns 10 rows 10M 10 82.756000
-columns 15 rows 1M 1 20.430000
-columns 15 rows 1M 2 15.016000
-columns 15 rows 1M 3 15.562000
-columns 15 rows 1M 4 15.429000
-columns 15 rows 1M 5 15.645000
-columns 15 rows 1M 6 16.219000
-columns 15 rows 1M 7 15.717000
-columns 15 rows 1M 8 15.171000
-columns 15 rows 1M 9 15.349000
-columns 15 rows 1M 10 15.493000
-columns 15 rows 2M 1 33.587000
-columns 15 rows 2M 2 23.315000
-columns 15 rows 2M 3 23.369000
-columns 15 rows 2M 4 23.433000
-columns 15 rows 2M 5 23.467000
-columns 15 rows 2M 6 23.770000
-columns 15 rows 2M 7 23.498000
-columns 15 rows 2M 8 23.069000
-columns 15 rows 2M 9 23.151000
-columns 15 rows 2M 10 23.159000
-columns 15 rows 3M 1 48.463000
-columns 15 rows 3M 2 31.977000
-columns 15 rows 3M 3 31.712000
-columns 15 rows 3M 4 32.038000
-columns 15 rows 3M 5 31.772000
-columns 15 rows 3M 6 31.936000
-columns 15 rows 3M 7 32.053000
-columns 15 rows 3M 8 32.355000
-columns 15 rows 3M 9 31.936000
-columns 15 rows 3M 10 31.801000
-columns 15 rows 4M 1 66.299000
-columns 15 rows 4M 2 46.781000
-columns 15 rows 4M 3 41.024000
-columns 15 rows 4M 4 40.273000
-columns 15 rows 4M 5 40.476000
-columns 15 rows 4M 6 39.976000
-columns 15 rows 4M 7 39.738000
-columns 15 rows 4M 8 39.635000
-columns 15 rows 4M 9 39.817000
-columns 15 rows 4M 10 39.766000
-columns 15 rows 5M 1 83.269000
-columns 15 rows 5M 2 49.548000
-columns 15 rows 5M 3 49.447000
-columns 15 rows 5M 4 48.464000
-columns 15 rows 5M 5 48.070000
-columns 15 rows 5M 6 47.928000
-columns 15 rows 5M 7 50.476000
-columns 15 rows 5M 8 56.889000
-columns 15 rows 5M 9 48.731000
-columns 15 rows 5M 10 49.103000
-columns 15 rows 6M 1 93.936000
-columns 15 rows 6M 2 58.824000
-columns 15 rows 6M 3 57.443000
-columns 15 rows 6M 4 60.668000
-columns 15 rows 6M 5 62.484000
-columns 15 rows 6M 6 57.539000
-columns 15 rows 6M 7 56.703000
-columns 15 rows 6M 8 55.895000
-columns 15 rows 6M 9 56.270000
-columns 15 rows 6M 10 55.827000
-columns 15 rows 7M 1 102.505000
-columns 15 rows 7M 2 65.531000
-columns 15 rows 7M 3 64.679000
-columns 15 rows 7M 4 64.487000
-columns 15 rows 7M 5 64.246000
-columns 15 rows 7M 6 64.059000
-columns 15 rows 7M 7 64.289000
-columns 15 rows 7M 8 64.151000
-columns 15 rows 7M 9 64.296000
-columns 15 rows 7M 10 64.680000
-columns 15 rows 8M 1 167.069000
-columns 15 rows 8M 2 83.114000
-columns 15 rows 8M 3 74.075000
-columns 15 rows 8M 4 73.919000
-columns 15 rows 8M 5 73.262000
-columns 15 rows 8M 6 73.318000
-columns 15 rows 8M 7 72.836000
-columns 15 rows 8M 8 73.440000
-columns 15 rows 8M 9 72.750000
-columns 15 rows 8M 10 73.197000
-columns 15 rows 9M 1 177.944000
-columns 15 rows 9M 2 82.877000
-columns 15 rows 9M 3 82.127000
-columns 15 rows 9M 4 82.157000
-columns 15 rows 9M 5 82.264000
-columns 15 rows 9M 6 81.677000
-columns 15 rows 9M 7 81.009000
-columns 15 rows 9M 8 81.189000
-columns 15 rows 9M 9 81.677000
-columns 15 rows 9M 10 82.084000
-columns 15 rows 10M 1 187.116000
-columns 15 rows 10M 2 95.222000
-columns 15 rows 10M 3 93.450000
-columns 15 rows 10M 4 96.114000
-columns 15 rows 10M 5 93.752000
-columns 15 rows 10M 6 93.114000
-columns 15 rows 10M 7 93.797000
-columns 15 rows 10M 8 93.365000
-columns 15 rows 10M 9 96.560000
-columns 15 rows 10M 10 94.453000
-columns 20 rows 1M 1 28.132000
-columns 20 rows 1M 2 17.084000
-columns 20 rows 1M 3 17.072000
-columns 20 rows 1M 4 17.049000
-columns 20 rows 1M 5 17.530000
-columns 20 rows 1M 6 17.042000
-columns 20 rows 1M 7 16.860000
-columns 20 rows 1M 8 16.928000
-columns 20 rows 1M 9 16.882000
-columns 20 rows 1M 10 17.107000
-columns 20 rows 2M 1 36.238000
-columns 20 rows 2M 2 24.039000
-columns 20 rows 2M 3 24.124000
-columns 20 rows 2M 4 24.670000
-columns 20 rows 2M 5 24.731000
-columns 20 rows 2M 6 25.664000
-columns 20 rows 2M 7 25.743000
-columns 20 rows 2M 8 25.791000
-columns 20 rows 2M 9 25.724000
-columns 20 rows 2M 10 26.067000
-columns 20 rows 3M 1 60.910000
-columns 20 rows 3M 2 33.684000
-columns 20 rows 3M 3 33.170000
-columns 20 rows 3M 4 33.130000
-columns 20 rows 3M 5 34.300000
-columns 20 rows 3M 6 41.635000
-columns 20 rows 3M 7 35.727000
-columns 20 rows 3M 8 32.945000
-columns 20 rows 3M 9 34.327000
-columns 20 rows 3M 10 33.584000
-columns 20 rows 4M 1 66.695000
-columns 20 rows 4M 2 42.291000
-columns 20 rows 4M 3 41.570000
-columns 20 rows 4M 4 41.508000
-columns 20 rows 4M 5 42.126000
-columns 20 rows 4M 6 41.908000
-columns 20 rows 4M 7 41.980000
-columns 20 rows 4M 8 41.604000
-columns 20 rows 4M 9 42.767000
-columns 20 rows 4M 10 43.588000
-columns 20 rows 5M 1 104.635000
-columns 20 rows 5M 2 50.590000
-columns 20 rows 5M 3 51.910000
-columns 20 rows 5M 4 51.334000
-columns 20 rows 5M 5 51.550000
-columns 20 rows 5M 6 50.837000
-columns 20 rows 5M 7 51.332000
-columns 20 rows 5M 8 52.527000
-columns 20 rows 5M 9 52.449000
-columns 20 rows 5M 10 52.982000
-columns 20 rows 6M 1 101.684000
-columns 20 rows 6M 2 60.476000
-columns 20 rows 6M 3 59.958000
-columns 20 rows 6M 4 58.844000
-columns 20 rows 6M 5 59.987000
-columns 20 rows 6M 6 58.876000
-columns 20 rows 6M 7 61.440000
-columns 20 rows 6M 8 58.372000
-columns 20 rows 6M 9 58.294000
-columns 20 rows 6M 10 58.415000
-columns 20 rows 7M 1 128.332000
-columns 20 rows 7M 2 70.183000
-columns 20 rows 7M 3 67.838000
-columns 20 rows 7M 4 68.695000
-columns 20 rows 7M 5 67.891000
-columns 20 rows 7M 6 68.185000
-columns 20 rows 7M 7 67.577000
-columns 20 rows 7M 8 67.187000
-columns 20 rows 7M 9 66.964000
-columns 20 rows 7M 10 66.674000
-columns 20 rows 8M 1 181.335000
-columns 20 rows 8M 2 78.701000
-columns 20 rows 8M 3 76.888000
-columns 20 rows 8M 4 77.163000
-columns 20 rows 8M 5 77.367000
-columns 20 rows 8M 6 76.164000
-columns 20 rows 8M 7 77.207000
-columns 20 rows 8M 8 76.973000
-columns 20 rows 8M 9 76.427000
-columns 20 rows 8M 10 76.602000
-columns 20 rows 9M 1 207.075000
-columns 20 rows 9M 2 87.536000
-columns 20 rows 9M 3 87.351000
-columns 20 rows 9M 4 190.693000
-columns 20 rows 9M 5 141.626000
-columns 20 rows 9M 6 100.415000
-columns 20 rows 9M 7 94.332000
-columns 20 rows 9M 8 96.531000
-columns 20 rows 9M 9 516.031000
-columns 20 rows 9M 10 192.802000
-columns 20 rows 10M 1 334.084000
-columns 20 rows 10M 2 103.667000
-columns 20 rows 10M 3 102.378000
-columns 20 rows 10M 4 110.056000
-columns 20 rows 10M 5 105.864000
-columns 20 rows 10M 6 100.605000
-columns 20 rows 10M 7 106.421000
-columns 20 rows 10M 8 103.109000
-columns 20 rows 10M 9 96.047000
-columns 20 rows 10M 10 95.574000
-columns 25 rows 1M 1 24.923000
-columns 25 rows 1M 2 18.785000
-columns 25 rows 1M 3 18.024000
-columns 25 rows 1M 4 18.146000
-columns 25 rows 1M 5 18.801000
-columns 25 rows 1M 6 19.122000
-columns 25 rows 1M 7 19.344000
-columns 25 rows 1M 8 20.086000
-columns 25 rows 1M 9 21.066000
-columns 25 rows 1M 10 20.187000
-columns 25 rows 2M 1 40.281000
-columns 25 rows 2M 2 28.106000
-columns 25 rows 2M 3 27.652000
-columns 25 rows 2M 4 27.012000
-columns 25 rows 2M 5 27.072000
-columns 25 rows 2M 6 26.836000
-columns 25 rows 2M 7 26.853000
-columns 25 rows 2M 8 27.033000
-columns 25 rows 2M 9 27.051000
-columns 25 rows 2M 10 27.014000
-columns 25 rows 3M 1 56.583000
-columns 25 rows 3M 2 36.400000
-columns 25 rows 3M 3 36.462000
-columns 25 rows 3M 4 36.324000
-columns 25 rows 3M 5 36.097000
-columns 25 rows 3M 6 36.409000
-columns 25 rows 3M 7 36.443000
-columns 25 rows 3M 8 38.608000
-columns 25 rows 3M 9 37.115000
-columns 25 rows 3M 10 37.480000
-columns 25 rows 4M 1 94.338000
-columns 25 rows 4M 2 48.130000
-columns 25 rows 4M 3 48.262000
-columns 25 rows 4M 4 46.351000
-columns 25 rows 4M 5 46.700000
-columns 25 rows 4M 6 48.068000
-columns 25 rows 4M 7 47.685000
-columns 25 rows 4M 8 48.672000
-columns 25 rows 4M 9 49.031000
-columns 25 rows 4M 10 48.965000
-columns 25 rows 5M 1 112.105000
-columns 25 rows 5M 2 58.964000
-columns 25 rows 5M 3 55.839000
-columns 25 rows 5M 4 57.001000
-columns 25 rows 5M 5 55.957000
-columns 25 rows 5M 6 56.088000
-columns 25 rows 5M 7 55.177000
-columns 25 rows 5M 8 55.626000
-columns 25 rows 5M 9 55.734000
-columns 25 rows 5M 10 55.609000
-columns 25 rows 6M 1 146.070000
-columns 25 rows 6M 2 68.307000
-columns 25 rows 6M 3 67.158000
-columns 25 rows 6M 4 67.435000
-columns 25 rows 6M 5 71.142000
-columns 25 rows 6M 6 68.782000
-columns 25 rows 6M 7 66.255000
-columns 25 rows 6M 8 65.726000
-columns 25 rows 6M 9 69.155000
-columns 25 rows 6M 10 65.958000
-columns 25 rows 7M 1 175.103000
-columns 25 rows 7M 2 77.677000
-columns 25 rows 7M 3 76.958000
-columns 25 rows 7M 4 77.267000
-columns 25 rows 7M 5 77.204000
-columns 25 rows 7M 6 76.549000
-columns 25 rows 7M 7 75.694000
-columns 25 rows 7M 8 75.967000
-columns 25 rows 7M 9 76.646000
-columns 25 rows 7M 10 76.878000
-columns 25 rows 8M 1 243.250000
-columns 25 rows 8M 2 91.794000
-columns 25 rows 8M 3 88.010000
-columns 25 rows 8M 4 88.511000
-columns 25 rows 8M 5 88.343000
-columns 25 rows 8M 6 87.201000
-columns 25 rows 8M 7 86.857000
-columns 25 rows 8M 8 89.238000
-columns 25 rows 8M 9 90.492000
-columns 25 rows 8M 10 89.690000
-columns 25 rows 9M 1 294.429000
-columns 25 rows 9M 2 105.660000
-columns 25 rows 9M 3 104.564000
-columns 25 rows 9M 4 101.072000
-columns 25 rows 9M 5 98.773000
-columns 25 rows 9M 6 96.738000
-columns 25 rows 9M 7 99.701000
-columns 25 rows 9M 8 109.644000
-columns 25 rows 9M 9 96.327000
-columns 25 rows 9M 10 96.834000
-columns 25 rows 10M 1 316.831000
-columns 25 rows 10M 2 112.415000
-columns 25 rows 10M 3 112.296000
-columns 25 rows 10M 4 108.509000
-columns 25 rows 10M 5 107.073000
-columns 25 rows 10M 6 109.940000
-columns 25 rows 10M 7 108.220000
-columns 25 rows 10M 8 109.318000
-columns 25 rows 10M 9 110.831000
-columns 25 rows 10M 10 107.722000
-columns 30 rows 1M 1 26.358000
-columns 30 rows 1M 2 17.691000
-columns 30 rows 1M 3 17.474000
-columns 30 rows 1M 4 17.846000
-columns 30 rows 1M 5 17.623000
-columns 30 rows 1M 6 17.438000
-columns 30 rows 1M 7 17.313000
-columns 30 rows 1M 8 17.175000
-columns 30 rows 1M 9 17.327000
-columns 30 rows 1M 10 17.266000
-columns 30 rows 2M 1 40.748000
-columns 30 rows 2M 2 25.960000
-columns 30 rows 2M 3 25.966000
-columns 30 rows 2M 4 25.942000
-columns 30 rows 2M 5 26.032000
-columns 30 rows 2M 6 26.203000
-columns 30 rows 2M 7 25.799000
-columns 30 rows 2M 8 25.873000
-columns 30 rows 2M 9 26.432000
-columns 30 rows 2M 10 28.569000
-columns 30 rows 3M 1 58.907000
-columns 30 rows 3M 2 36.415000
-columns 30 rows 3M 3 39.286000
-columns 30 rows 3M 4 47.770000
-columns 30 rows 3M 5 36.563000
-columns 30 rows 3M 6 35.948000
-columns 30 rows 3M 7 36.071000
-columns 30 rows 3M 8 36.013000
-columns 30 rows 3M 9 35.690000
-columns 30 rows 3M 10 35.661000
-columns 30 rows 4M 1 85.530000
-columns 30 rows 4M 2 46.732000
-columns 30 rows 4M 3 45.841000
-columns 30 rows 4M 4 45.661000
-columns 30 rows 4M 5 49.265000
-columns 30 rows 4M 6 44.872000
-columns 30 rows 4M 7 44.942000
-columns 30 rows 4M 8 47.542000
-columns 30 rows 4M 9 44.950000
-columns 30 rows 4M 10 45.020000
-columns 30 rows 5M 1 95.938000
-columns 30 rows 5M 2 54.734000
-columns 30 rows 5M 3 55.550000
-columns 30 rows 5M 4 55.361000
-columns 30 rows 5M 5 54.622000
-columns 30 rows 5M 6 54.911000
-columns 30 rows 5M 7 54.505000
-columns 30 rows 5M 8 54.319000
-columns 30 rows 5M 9 54.588000
-columns 30 rows 5M 10 54.545000
-columns 30 rows 6M 1 183.956000
-columns 30 rows 6M 2 68.256000
-columns 30 rows 6M 3 66.970000
-columns 30 rows 6M 4 71.477000
-columns 30 rows 6M 5 67.266000
-columns 30 rows 6M 6 65.449000
-columns 30 rows 6M 7 67.407000
-columns 30 rows 6M 8 67.613000
-columns 30 rows 6M 9 65.264000
-columns 30 rows 6M 10 66.565000
-columns 30 rows 7M 1 177.760000
-columns 30 rows 7M 2 77.397000
-columns 30 rows 7M 3 75.658000
-columns 30 rows 7M 4 75.541000
-columns 30 rows 7M 5 75.698000
-columns 30 rows 7M 6 74.540000
-columns 30 rows 7M 7 89.013000
-columns 30 rows 7M 8 86.542000
-columns 30 rows 7M 9 76.700000
-columns 30 rows 7M 10 77.294000
-columns 30 rows 8M 1 279.969000
-columns 30 rows 8M 2 98.928000
-columns 30 rows 8M 3 90.886000
-columns 30 rows 8M 4 89.553000
-columns 30 rows 8M 5 92.064000
-columns 30 rows 8M 6 89.753000
-columns 30 rows 8M 7 92.398000
-columns 30 rows 8M 8 94.014000
-columns 30 rows 8M 9 92.304000
-columns 30 rows 8M 10 95.547000
-columns 30 rows 9M 1 398.763000
-columns 30 rows 9M 2 108.702000
-columns 30 rows 9M 3 96.562000
-columns 30 rows 9M 4 95.901000
-columns 30 rows 9M 5 95.499000
-columns 30 rows 9M 6 100.877000
-columns 30 rows 9M 7 136.214000
-columns 30 rows 9M 8 102.357000
-columns 30 rows 9M 9 109.223000
-columns 30 rows 9M 10 123.614000
-columns 30 rows 10M 1 587.070000
-columns 30 rows 10M 2 149.181000
-columns 30 rows 10M 3 109.560000
-columns 30 rows 10M 4 131.905000
-columns 30 rows 10M 5 115.733000
-columns 30 rows 10M 6 107.256000
-columns 30 rows 10M 7 106.342000
-columns 30 rows 10M 8 106.472000
-columns 30 rows 10M 9 104.858000
-columns 30 rows 10M 10 105.725000
+columns 5 rows 1M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 9.169 ms
+initial connection time = 0.814 ms
+tps = 109.057319 (without initial connection time)
+
+columns 5 rows 2M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 16.149 ms
+initial connection time = 0.796 ms
+tps = 61.922035 (without initial connection time)
+
+columns 5 rows 3M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 22.945 ms
+initial connection time = 0.885 ms
+tps = 43.581644 (without initial connection time)
+
+columns 5 rows 4M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 26.977 ms
+initial connection time = 0.815 ms
+tps = 37.068009 (without initial connection time)
+
+columns 5 rows 5M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 37.421 ms
+initial connection time = 1.565 ms
+tps = 26.723106 (without initial connection time)
+
+columns 5 rows 6M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 44.331 ms
+initial connection time = 1.003 ms
+tps = 22.557716 (without initial connection time)
+
+columns 5 rows 7M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 51.360 ms
+initial connection time = 1.137 ms
+tps = 19.470416 (without initial connection time)
+
+columns 5 rows 8M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 58.863 ms
+initial connection time = 1.312 ms
+tps = 16.988736 (without initial connection time)
+
+columns 5 rows 9M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 65.130 ms
+initial connection time = 2.022 ms
+tps = 15.353851 (without initial connection time)
+
+columns 5 rows 10M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 71.966 ms
+initial connection time = 1.732 ms
+tps = 13.895530 (without initial connection time)
+
+columns 10 rows 1M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 9.702 ms
+initial connection time = 0.723 ms
+tps = 103.068770 (without initial connection time)
+
+columns 10 rows 2M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 17.016 ms
+initial connection time = 0.859 ms
+tps = 58.766526 (without initial connection time)
+
+columns 10 rows 3M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 24.079 ms
+initial connection time = 0.780 ms
+tps = 41.529119 (without initial connection time)
+
+columns 10 rows 4M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 32.503 ms
+initial connection time = 1.023 ms
+tps = 30.766135 (without initial connection time)
+
+columns 10 rows 5M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 38.350 ms
+initial connection time = 0.959 ms
+tps = 26.075341 (without initial connection time)
+
+columns 10 rows 6M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 45.898 ms
+initial connection time = 1.677 ms
+tps = 21.787427 (without initial connection time)
+
+columns 10 rows 7M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 53.933 ms
+initial connection time = 1.250 ms
+tps = 18.541586 (without initial connection time)
+
+columns 10 rows 8M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 61.995 ms
+initial connection time = 1.260 ms
+tps = 16.130422 (without initial connection time)
+
+columns 10 rows 9M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 68.386 ms
+initial connection time = 3.388 ms
+tps = 14.622812 (without initial connection time)
+
+columns 10 rows 10M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 75.482 ms
+initial connection time = 1.465 ms
+tps = 13.248199 (without initial connection time)
+
+columns 15 rows 1M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 9.815 ms
+initial connection time = 0.844 ms
+tps = 101.888711 (without initial connection time)
+
+columns 15 rows 2M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 17.687 ms
+initial connection time = 0.794 ms
+tps = 56.537550 (without initial connection time)
+
+columns 15 rows 3M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 25.730 ms
+initial connection time = 0.851 ms
+tps = 38.865455 (without initial connection time)
+
+columns 15 rows 4M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 34.077 ms
+initial connection time = 0.795 ms
+tps = 29.345530 (without initial connection time)
+
+columns 15 rows 5M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 41.103 ms
+initial connection time = 0.839 ms
+tps = 24.329391 (without initial connection time)
+
+columns 15 rows 6M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 48.792 ms
+initial connection time = 1.175 ms
+tps = 20.495201 (without initial connection time)
+
+columns 15 rows 7M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 56.703 ms
+initial connection time = 1.109 ms
+tps = 17.635829 (without initial connection time)
+
+columns 15 rows 8M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 66.911 ms
+initial connection time = 1.902 ms
+tps = 14.945174 (without initial connection time)
+
+columns 15 rows 9M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 73.082 ms
+initial connection time = 4.983 ms
+tps = 13.683312 (without initial connection time)
+
+columns 15 rows 10M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 82.417 ms
+initial connection time = 4.020 ms
+tps = 12.133425 (without initial connection time)
+
+columns 20 rows 1M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 10.238 ms
+initial connection time = 0.777 ms
+tps = 97.675518 (without initial connection time)
+
+columns 20 rows 2M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 18.386 ms
+initial connection time = 0.867 ms
+tps = 54.388973 (without initial connection time)
+
+columns 20 rows 3M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 27.045 ms
+initial connection time = 0.907 ms
+tps = 36.975822 (without initial connection time)
+
+columns 20 rows 4M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 34.601 ms
+initial connection time = 0.948 ms
+tps = 28.900840 (without initial connection time)
+
+columns 20 rows 5M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 39.590 ms
+initial connection time = 1.020 ms
+tps = 25.259012 (without initial connection time)
+
+columns 20 rows 6M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 51.037 ms
+initial connection time = 1.865 ms
+tps = 19.593463 (without initial connection time)
+
+columns 20 rows 7M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 59.607 ms
+initial connection time = 1.485 ms
+tps = 16.776426 (without initial connection time)
+
+columns 20 rows 8M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 69.254 ms
+initial connection time = 1.761 ms
+tps = 14.439662 (without initial connection time)
+
+columns 20 rows 9M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 77.357 ms
+initial connection time = 2.077 ms
+tps = 12.927103 (without initial connection time)
+
+columns 20 rows 10M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 87.524 ms
+initial connection time = 8.203 ms
+tps = 11.425381 (without initial connection time)
+
+columns 25 rows 1M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 11.933 ms
+initial connection time = 0.838 ms
+tps = 83.803471 (without initial connection time)
+
+columns 25 rows 2M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 21.344 ms
+initial connection time = 0.922 ms
+tps = 46.852123 (without initial connection time)
+
+columns 25 rows 3M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 27.492 ms
+initial connection time = 1.075 ms
+tps = 36.374416 (without initial connection time)
+
+columns 25 rows 4M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 38.524 ms
+initial connection time = 1.165 ms
+tps = 25.958121 (without initial connection time)
+
+columns 25 rows 5M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 46.436 ms
+initial connection time = 1.251 ms
+tps = 21.535090 (without initial connection time)
+
+columns 25 rows 6M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 58.006 ms
+initial connection time = 1.548 ms
+tps = 17.239575 (without initial connection time)
+
+columns 25 rows 7M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 65.710 ms
+initial connection time = 1.883 ms
+tps = 15.218298 (without initial connection time)
+
+columns 25 rows 8M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 75.941 ms
+initial connection time = 2.740 ms
+tps = 13.168156 (without initial connection time)
+
+columns 25 rows 9M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 88.124 ms
+initial connection time = 1.884 ms
+tps = 11.347698 (without initial connection time)
+
+columns 25 rows 10M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 98.010 ms
+initial connection time = 1.894 ms
+tps = 10.203036 (without initial connection time)
+
+columns 30 rows 1M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 11.504 ms
+initial connection time = 1.028 ms
+tps = 86.929460 (without initial connection time)
+
+columns 30 rows 2M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 19.748 ms
+initial connection time = 1.157 ms
+tps = 50.638809 (without initial connection time)
+
+columns 30 rows 3M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 28.935 ms
+initial connection time = 3.067 ms
+tps = 34.560556 (without initial connection time)
+
+columns 30 rows 4M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 38.461 ms
+initial connection time = 1.305 ms
+tps = 26.000303 (without initial connection time)
+
+columns 30 rows 5M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 47.090 ms
+initial connection time = 1.496 ms
+tps = 21.235922 (without initial connection time)
+
+columns 30 rows 6M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 56.677 ms
+initial connection time = 1.730 ms
+tps = 17.643901 (without initial connection time)
+
+columns 30 rows 7M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 67.567 ms
+initial connection time = 1.734 ms
+tps = 14.800083 (without initial connection time)
+
+columns 30 rows 8M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 73.519 ms
+initial connection time = 2.106 ms
+tps = 13.601854 (without initial connection time)
+
+columns 30 rows 9M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 87.159 ms
+initial connection time = 1.971 ms
+tps = 11.473342 (without initial connection time)
+
+columns 30 rows 10M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 98.593 ms
+initial connection time = 2.525 ms
+tps = 10.142686 (without initial connection time)
+

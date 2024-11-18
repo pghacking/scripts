@@ -32,12 +32,14 @@ INSERT INTO $TABLE_NAME SELECT FROM generate_series(1, $rows * 1000000);
 SELECT pg_prewarm('$TABEL_NAME');
 EOF
 		# run select count(*) 10x
-		for r in $(seq 1 10); do
-			s=$(psql -t -A -c "SELECT EXTRACT(EPOCH FROM now())")
-			psql -c "SELECT count(*) from $TABLE_NAME" > /dev/null 2>&1
-			d=$(psql -t -A -c "SELECT 1000 * (EXTRACT(EPOCH FROM now()) - $s)")
-			echo "columns" $c "rows" $rows"M" $r $d
-		done
+		#for r in $(seq 1 10); do
+		#	s=$(psql -t -A -c "SELECT EXTRACT(EPOCH FROM now())")
+		#	psql -c "SELECT count(*) from $TABLE_NAME" > /dev/null 2>&1
+		#	d=$(psql -t -A -c "SELECT 1000 * (EXTRACT(EPOCH FROM now()) - $s)")
+		#done
+		echo "columns" $c "rows" $rows"M"
+		pgbench -n -t 100 -f query.sql
+		echo ""
 	done
 done
 
