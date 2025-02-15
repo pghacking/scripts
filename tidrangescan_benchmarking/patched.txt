@@ -1,0 +1,140 @@
+columns 10 rows 1M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 22.337 ms
+initial connection time = 1.582 ms
+tps = 44.769290 (without initial connection time)
+pgbench (18devel)
+transaction type: query_with_qual.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 37.640 ms
+initial connection time = 0.983 ms
+tps = 26.567305 (without initial connection time)
+
+columns 10 rows 2M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 43.163 ms
+initial connection time = 1.119 ms
+tps = 23.167980 (without initial connection time)
+pgbench (18devel)
+transaction type: query_with_qual.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 70.742 ms
+initial connection time = 0.917 ms
+tps = 14.135974 (without initial connection time)
+
+columns 10 rows 3M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 57.787 ms
+initial connection time = 1.064 ms
+tps = 17.304960 (without initial connection time)
+pgbench (18devel)
+transaction type: query_with_qual.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 97.801 ms
+initial connection time = 1.059 ms
+tps = 10.224858 (without initial connection time)
+
+columns 10 rows 4M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 85.877 ms
+initial connection time = 1.169 ms
+tps = 11.644590 (without initial connection time)
+pgbench (18devel)
+transaction type: query_with_qual.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 143.543 ms
+initial connection time = 0.953 ms
+tps = 6.966557 (without initial connection time)
+
+columns 10 rows 5M
+pgbench (18devel)
+transaction type: query.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 106.267 ms
+initial connection time = 1.482 ms
+tps = 9.410220 (without initial connection time)
+pgbench (18devel)
+transaction type: query_with_qual.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100
+number of transactions actually processed: 100/100
+number of failed transactions: 0 (0.000%)
+latency average = 169.337 ms
+initial connection time = 0.984 ms
+tps = 5.905397 (without initial connection time)
+
