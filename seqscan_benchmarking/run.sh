@@ -5,7 +5,7 @@ TABLE_NAME=test_table
 psql > /dev/null 2>&1 << EOF
 CREATE OR REPLACE FUNCTION create_table_cols(tabname text, num_cols int)
 RETURNS VOID AS
-$func$
+\$\$
 DECLARE
   query text;
 BEGIN
@@ -19,7 +19,7 @@ BEGIN
   query := query || ')';
   EXECUTE format(query);
 END
-$func$ LANGUAGE plpgsql;
+\$\$ LANGUAGE plpgsql;
 CREATE EXTENSION IF NOT EXISTS pg_prewarm;
 EOF
 
@@ -29,7 +29,7 @@ for c in $(seq 5 5 30); do
 DROP TABLE IF EXISTS $TABLE_NAME;
 SELECT create_table_cols ('$TABLE_NAME', $c);
 INSERT INTO $TABLE_NAME SELECT FROM generate_series(1, $rows * 1000000);
-SELECT pg_prewarm('$TABEL_NAME');
+SELECT pg_prewarm('$TABLE_NAME');
 EOF
 		# run select count(*) 10x
 		#for r in $(seq 1 10); do
