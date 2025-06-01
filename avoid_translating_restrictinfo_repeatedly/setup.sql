@@ -1,4 +1,4 @@
-grop function create_partitioned_table;
+drop function create_partitioned_table;
 create or replace function create_partitioned_table(table_name name, num_parts integer, num_cols integer)
 returns integer
 language plpgsql
