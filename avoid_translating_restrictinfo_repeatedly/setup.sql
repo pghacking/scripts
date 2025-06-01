@@ -1,126 +1,123 @@
-create or replace function create_partitioned_table(table_name varchar, num_parts integer)
+grop function create_partitioned_table;
+create or replace function create_partitioned_table(table_name name, num_parts integer, num_cols integer)
 returns integer
 language plpgsql
 as $$
 declare
- cnt_part integer;
- part_name varchar;
- ddl_cmd varchar;
- num_values_per_part integer := 100;
- from_val integer := 0;
- to_val integer := from_val + num_values_per_part;
+	cnt integer;
+	part_name varchar;
+	ddl_cmds varchar[];
+	ddl_cmd varchar;
+	col_clause varchar;
+	num_values_per_part integer := 100;
+	from_val integer := 0;
+	to_val integer := from_val + num_values_per_part;
+	first bool;
 begin
- ddl_cmd := 'create table ' || table_name || '(a integer primary key, b integer) partition by range(a)';
- execute ddl_cmd;
- for cnt_part in 1 .. num_parts loop
-  ddl_cmd := 'create table ' || table_name || '_p' || cnt_part || ' partition of ' || table_name ||
-     ' for values from ( ' || from_val || ') to (' || to_val || ')';
-  execute ddl_cmd;
-  from_val := to_val;
-  to_val := from_val + num_values_per_part;
- end loop;
+	-- drop table
+	ddl_cmds[1] := 'drop table if exists ' || table_name;
 
- return num_parts;
+	first := true;
+	col_clause := '';
+	for cnt in 1 .. num_cols loop
+		if not first then
+			col_clause := col_clause || ', ';
+		end if;
+
+		col_clause := col_clause || 'c' || cnt || ' integer';
+
+		if first then
+			col_clause := col_clause || ' primary key';
+		end if;
+
+		first := false;
+	end loop;
+
+	-- create table
+	ddl_cmds[2] := 'create table ' || table_name || '(' || col_clause || ')';
+	if num_parts > 0 then
+		ddl_cmds[2] := ddl_cmds[2] || ' partition by range(c1)';
+	end if;
+
+	-- create partitions
+	for cnt in 1 .. num_parts loop
+		part_name := table_name || '_p' || cnt;
+		ddl_cmds[2 + cnt] := 'create table ' || part_name || ' partition of ' || table_name ||
+					' for values from ( ' || from_val || ') to (' || to_val || ')';
+		from_val := to_val;
+		to_val := from_val + num_values_per_part;
+	end loop;
+
+	foreach ddl_cmd in array ddl_cmds loop
+		execute ddl_cmd;
+	end loop;
+
+	return num_parts;
 end;
 $$;
 
-drop function measure_query_times;
-drop function readable_measure_query_times;
-
-create function measure_query_times(query text,
-            num_samples int,
-            out measurement varchar,
-            out average float,
-            out maximum float,
-            out minimum float,
-            out std_dev float)
-returns setof record
+drop function measure_query_planning;
+create function measure_query_planning(query text, num_runs int, pwj bool)
+returns table (run int, planning_time_ms float, plan_mem_used_kb bigint, plan_mem_allocated_kb bigint)
 language plpgsql
 as $$
 declare
- total_planning_time float := 0;
- total_execution_time float := 0;
- explain_query text := 'EXPLAIN (FORMAT JSON, MEMORY, SUMMARY, ANALYZE) ' || query;
- explain_out json;
- cnt int;
- stats_rec record;
+	explain_query text := 'EXPLAIN (FORMAT JSON, MEMORY, SUMMARY) ' || query;
+	explain_out json;
+	pwj_cmd text;
 begin
- -- executed query once to warm up caches before the actual run. XXX we might
- -- want to run it multiple times.
- execute explain_query into explain_out;
+	-- enable/disable pwj
+	execute 'set enable_partitionwise_join to ' || case pwj when true then 'on' else 'off' end case;
+	-- run it once so that the caches are warmed up
+	execute explain_query into explain_out;
 
- -- table to collect samples
- create temporary table q_times(instance int, planning_time float, planning_memory_used bigint, planning_memory_alloced bigint, execution_time float);
-
- -- collect samples
- for cnt in 1..num_samples loop
-  execute explain_query into explain_out;
-  insert into q_times values (cnt,
-         (explain_out->0->>'Planning Time')::float,
-         (explain_out->0->'Planning'->>'Memory Used')::bigint,
-         (explain_out->0->'Planning'->>'Memory Allocated')::bigint,
-         (explain_out->0->>'Execution Time')::float);
- end loop;
-
- -- report statistics
- for stats_rec in
-   with stats as
-    (select avg(planning_time) pt_avg,
-      min(planning_time) pt_min,
-      max(planning_time) pt_max,
-      stddev(planning_time) pt_sdev,
-      avg(planning_memory_used) pmu_avg,
-      min(planning_memory_used) pmu_min,
-      max(planning_memory_used) pmu_max,
-      stddev(planning_memory_used) pmu_sdev,
-      avg(planning_memory_alloced) pma_avg,
-      min(planning_memory_alloced) pma_min,
-      max(planning_memory_alloced) pma_max,
-      stddev(planning_memory_alloced) pma_sdev,
-      avg(execution_time) et_avg,
-      min(execution_time) et_min,
-      max(execution_time) et_max,
-      stddev(execution_time) et_sdev
-     from q_times)
-   select 'planning time'::varchar measurement, pt_avg average, pt_min minimum, pt_max maximum, pt_sdev std_dev from stats
-    union all
-   select 'planning memory used'::varchar measurement, pmu_avg average, pmu_min minimum, pmu_max maximum, pmu_sdev std_dev from stats
-    union all
-   select 'planning memory alloc'::varchar measurement, pma_avg average, pma_min minimum, pma_max maximum, pma_sdev std_dev from stats
-    union all
-   select 'execution time'::varchar measurement, et_avg average, et_min minimum, et_max maximum, et_sdev std_dev from stats
-  loop
-   measurement := stats_rec.measurement;
-   average := stats_rec.average;
-   minimum := stats_rec.minimum;
-   maximum := stats_rec.maximum;
-   std_dev := stats_rec.std_dev;
-   return next;
- end loop;
- drop table q_times;
+	-- run required number of times
+	for cnt in 1..num_runs loop
+		run := cnt;
+		execute explain_query into explain_out;
+		planning_time_ms := explain_out->0->>'Planning Time';
+		plan_mem_used_kb := (explain_out->0->'Planning'->>'Memory Used')::bigint;
+		plan_mem_allocated_kb := (explain_out->0->'Planning'->>'Memory Allocated')::bigint;
+		return next;
+	end loop;
 end;
 $$;
 
-create function readable_measure_query_times(query text, num_samples int,
-            out measurement varchar,
-            out average text,
-            out maximum text,
-            out minimum text,
-            out std_dev text,
-            out std_dev_as_perc_of_avg text)
-returns setof record
-language SQL
+drop function construct_selfjoin_query;
+create function construct_selfjoin_query(tabname name, num_join int)
+returns text
+language sql
+strict immutable
 as $$
- select measurement,
-   average::numeric(42, 2),
-   maximum::numeric(42, 2),
-   minimum::numeric(42, 2),
-   std_dev::numeric(42, 2),
-   (std_dev/average*100)::numeric(42,2) || '%' "std_dev perc of average"
-   from measure_query_times(query, num_samples);
+	select 'select * from ' || tabname || ' t1, ' || string_agg(tabname || ' t' || i, ', ') || ' where ' || string_agg('t'||i||'.'||'c1 = t'||(i-1)||'.c1', ' AND ') from generate_series(2, num_join) i;
 $$;
 
-drop table t1, t1_parted;
+drop function measure_join_planning;
+create function measure_join_planning(tabname name, max_num_joins int, num_runs int)
+returns table (num_joins int, query text, pwj bool, run int, planning_time_ms float, plan_mem_used_kb bigint, plan_mem_allocated_kb bigint)
+language sql
+as $$
+	select num_join, query, pwj.pwj, qp.* from generate_series(2, max_num_joins) num_join, lateral construct_selfjoin_query(tabname, num_join) query, (values (false), (true)) pwj(pwj), lateral measure_query_planning(query, num_runs, pwj.pwj) qp;
+$$;
 
-create table t1 (a integer primary key, b integer);
-select create_partitioned_table('t1_parted', 1000);
+drop function create_tables;
+create function create_tables(prefix varchar, numparts int[], num_cols int)
+returns setof name
+language plpgsql
+as $$
+declare
+	tabname name;
+	num_part integer;
+begin
+	foreach num_part in array numparts loop
+		tabname := prefix || num_part;
+		perform create_partitioned_table(tabname, num_part, num_cols);
+		return next tabname;
+	end loop;
+end;
+$$;
+
+select * from create_tables('t1p', '{0, 10, 100, 500, 1000}'::int[], 2);
+
+drop table msmts;
+create table msmts (code_tag text, time_stamp timestamptz, num_parts int, num_joins int, pwj bool, query text, run int, planning_time_ms float, plan_mem_used_kb bigint, plan_mem_allocated_kb bigint);
